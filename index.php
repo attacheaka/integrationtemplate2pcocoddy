@@ -9,7 +9,7 @@
 	 	   <div class="col-md-9 col-lg-9">
 	 	   	 <img class="img-fluid" src="dist/img/ministere.png" alt="">
 	 	   </div>
-			 <div class="col-md-3 col-lg-3" style="width:100%">
+			 <div class="col-md-3 col-lg-3">
 				 
 					<center>
 					<span class="aag-text-iepp"> IEPP Cocody Deux-Plateaux </span> <br>
@@ -91,7 +91,7 @@
 
 
  <!--  after flash -->
-<div class="container-fluid">
+
 	<div class="row">
 		<div class="col-lg-8">
 			<h2 class="aag-title-section"> Actualités </h2>
@@ -100,7 +100,7 @@
 			<!-- item actualite -->
 			<div class="row mt-3">
 				<div class="col-lg-6 mb-3">
-						<div class="card shadow" style="width: 25rem;">
+						<div class="card shadow">
 						<img src="dist/img/card_banniere.png" height="200" class="card-img-top" alt="...">
 						<div class="card-body aag-card-body">
 							<h5 class="card-title aag-card-title">21 janvier 2020 </h5>
@@ -116,7 +116,7 @@
 						</div>
 				</div>
 				<div class="col-lg-6">
-							<div class="card shadow" style="width: 25rem;">
+							<div class="card shadow">
 							<img src="dist/img/card_banniere.png" height="200" class="card-img-top" alt="...">
 							<div class="card-body aag-card-body">
 								<h5 class="card-title aag-card-title"> 21 janvier 2020 </h5>
@@ -204,28 +204,28 @@
 			<!-- item calendar -->
 			<div class="row mt-3">
 				<div class="col-lg-6 mb-3">
-						<div class="card shadow" style="width: 25rem;">
+						<div class="card shadow">
 						<div class="card-body aag-card-body"  style="height:18rem;">
 						
 						</div>
 						</div>
 				</div>
 				<div class="col-lg-6">
-							<div class="card shadow" style="width: 25rem;">
+							<div class="card shadow">
 							<div class="card-body aag-card-body" style="height:18rem;">
 							
 							</div>
 							</div>
 				</div>
 				<div class="col-lg-6">
-							<div class="card shadow" style="width: 25rem;">
+							<div class="card shadow">
 							<div class="card-body aag-card-body" style="height:18rem;">
 							
 							</div>
 							</div>
 				</div>
 				<div class="col-lg-6">
-							<div class="card shadow" style="width: 25rem;">
+							<div class="card shadow">
 							<div class="card-body aag-card-body" style="height:18rem;">
 							
 							</div>
@@ -242,7 +242,7 @@
 					<div class="aag-vd-header p-2"> Réseaux Sociaux </div>
 
 					<div class="row">
-						<div class="col-12">
+						<div class="col-md-6 col-lg-12">
 							<center>
 							<div class="p-4">
 								<iframe  src="https://www.youtube.com/embed/tohgsqj2rWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -250,7 +250,7 @@
 							</center>
 						</div>
 
-						<div class="col-12">
+						<div class="col-md-6 col-lg-12">
 							<center>
 							<div class="p-4">
 								<iframe  src="https://www.youtube.com/embed/tohgsqj2rWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -258,7 +258,15 @@
 							</center>
 						</div>
 
-						<div class="col-12">
+						<div class="col-md-6 col-lg-12">
+							<center>
+							<div class="p-4">
+								<iframe  src="https://www.youtube.com/embed/tohgsqj2rWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							</center>
+						</div>
+						
+						<div class="col-md-6 col-lg-12">
 							<center>
 							<div class="p-4">
 								<iframe  src="https://www.youtube.com/embed/tohgsqj2rWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -271,8 +279,6 @@
 		</div>
 	</div>
 
-
-</div>
 
 
 <?php include('include/footer.php') ?>
