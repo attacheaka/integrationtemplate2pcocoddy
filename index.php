@@ -1,7 +1,7 @@
 <?php include('include/header.php') ?>
 
 <div class="container-fluid" style="padding:0;">
-	 <div style="background-color:#294A70;color:#294A70;" class="p-3"> ... </div>
+	 <div class="aag-bg-blue aag-text-color p-3"> ... </div>
 </div>
 
 <div class="container-fluid" style="padding:0;">
@@ -10,18 +10,20 @@
 	 	   	 <img class="img-fluid" src="dist/img/ministere.png" alt="">
 	 	   </div>
 			 <div class="col-md-3 col-lg-3" style="width:100%">
-				  <center>
-						<span style="color:#294A70;font-size:1em;"> IEPP Cocody Deux-Plateaux </span> <br>
-						<span style="color:#294A70;font-size:0.7em;"> Inspection de L'Enseignement Préscolaire et Primaire </span>
-				 	  <div class="row">
-				 	  	 <div class="col-sm-6 col-md-6 col-lg-6"> <img class="img-fluid" src="dist/img/menet@2x.png" alt=""> </div>
-							 <div class="col-sm-6 col-md-6 col-lg-6"> <img class="img-fluid" src="dist/img/iepp@2x.png" alt=""> </div>
-				 	  </div>
+				 
+					<center>
+					<span class="aag-text-iepp"> IEPP Cocody Deux-Plateaux </span> <br>
+					<span class="aag-text-subiepp"> Inspection de L'Enseignement Préscolaire et Primaire </span>
 					</center>
+				 	  <div class="row">
+				 	  	 <div class="col-6">  <center> <img class="img-fluid" src="dist/img/menet@2x.png" alt=""> </center> </div>
+							 <div class="col-6"> <center> <img class="img-fluid" src="dist/img/iepp@2x.png" alt=""> </center> </div>
+				 	  </div>
+					
 			 </div>
 	 </div>
  <!-- barre de navigation -->
-		 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#294A70;padding:0px">
+		 <nav class="navbar navbar-expand-lg navbar-light aag-cs-navbar">
 			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				 <span class="navbar-toggler-icon"></span>
 			 </button>
@@ -84,10 +86,193 @@
 		  </a>
 		</div>
 		<!-- flash info -->
-
+<br><br><br>
 </div>
 
 
+ <!--  after flash -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-8">
+			<h2 class="aag-title-section"> Actualités </h2>
+			<div class="aag-hr"></div>
+
+			<!-- item actualite -->
+			<div class="row mt-3">
+				<div class="col-lg-6 mb-3">
+						<div class="card shadow" style="width: 25rem;">
+						<img src="dist/img/card_banniere.png" height="200" class="card-img-top" alt="...">
+						<div class="card-body aag-card-body">
+							<h5 class="card-title aag-card-title">21 janvier 2020 </h5>
+							<p class="card-text aag-card-text">
+									Madame Kandia CAMARA, Ministre de l’Éducation Nationale,
+									de l’Enseignement Technique et de la Formation Professionnelle 
+									à ses cotés Madame FRIE Léocadie épse GOUGOUEI, Inspecteur d
+									e l’Enseignement Préscolaire et Primaire, Chef de Circonscription
+									et Primaire, Chef de Circonscription et Primaire, Chef de Circonscription
+							</p>
+							<center> <a href="#"  class="btn aag-btn-orange rounded-pill pr-5 pl-5 shadow"> Lire plus  </a> </center>
+						</div>
+						</div>
+				</div>
+				<div class="col-lg-6">
+							<div class="card shadow" style="width: 25rem;">
+							<img src="dist/img/card_banniere.png" height="200" class="card-img-top" alt="...">
+							<div class="card-body aag-card-body">
+								<h5 class="card-title aag-card-title"> 21 janvier 2020 </h5>
+								<p class="card-text aag-card-text">
+										Madame Kandia CAMARA, Ministre de l’Éducation Nationale,
+										de l’Enseignement Technique et de la Formation Professionnelle 
+										à ses cotés Madame FRIE Léocadie épse GOUGOUEI, Inspecteur d
+										e l’Enseignement Préscolaire et Primaire, Chef de Circonscription
+										et Primaire, Chef de Circonscription et Primaire, Chef de Circonscription
+								</p>
+								<center> <a href="#" class="btn aag-btn-orange rounded-pill pr-5 pl-5 shadow"> Lire plus  </a> </center>
+							</div>
+							</div>
+				</div>
+				<!-- end item actualite -->
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<h2 class="aag-title-section"> Evenements </h2>
+			<div class="aag-hr mb-4"></div>
+			<!-- item event -->
+				<div class="card aag-card-ev mb-3">
+					<div class="row">
+						<div class="col-md-4 p-2 aag-bg-ev" style="padding-left:0"> 
+							<img  src="dist/img/inspecteur.png" class="card-img h-100" alt="...">
+						</div>
+						<div class="col-md-8"  style="padding-left:0">
+							<div class="card-body aag-bg-ev">
+								<h5 class="card-title aag-cardev-title"> RÉUNION DE RENTRÉE DU SECOND TRIMESTRE </h5>
+								<p class="card-text aag-cardev-text">
+								VENDREDI 17 JANVIER 2020 À L'EPP ANGRÉ-1 Dans le cadre..
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card aag-card-ev mb-3">
+					<div class="row">
+						<div class="col-md-4 p-2 aag-bg-ev" style="padding-left:0"> 
+							<img  src="dist/img/inspecteur.png" class="card-img h-100" alt="...">
+						</div>
+						<div class="col-md-8"  style="padding-left:0">
+							<div class="card-body aag-bg-ev">
+								<h5 class="card-title aag-cardev-title"> RÉUNION DE RENTRÉE DU SECOND TRIMESTRE </h5>
+								<p class="card-text aag-cardev-text">
+								VENDREDI 17 JANVIER 2020 À L'EPP ANGRÉ-1 Dans le cadre..
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card aag-card-ev mb-3">
+					<div class="row">
+						<div class="col-md-4 p-2 aag-bg-ev" style="padding-left:0"> 
+							<img  src="dist/img/inspecteur.png" class="card-img h-100" alt="...">
+						</div>
+						<div class="col-md-8"  style="padding-left:0">
+							<div class="card-body aag-bg-ev">
+								<h5 class="card-title aag-cardev-title"> RÉUNION DE RENTRÉE DU SECOND TRIMESTRE </h5>
+								<p class="card-text aag-cardev-text">
+								VENDREDI 17 JANVIER 2020 À L'EPP ANGRÉ-1 Dans le cadre..
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+			<!-- end item event -->
+		</div>
+	</div>
+
+
+	
+
+<!-- after event && actualite -->
+<br><br>
+<div class="row">
+		<div class="col-lg-8">
+			<h2 class="aag-title-section"> PROGRAMME - SCOLAIRE </h2>
+			<div class="aag-hr"></div>
+
+			<!-- item calendar -->
+			<div class="row mt-3">
+				<div class="col-lg-6 mb-3">
+						<div class="card shadow" style="width: 25rem;">
+						<div class="card-body aag-card-body"  style="height:18rem;">
+						
+						</div>
+						</div>
+				</div>
+				<div class="col-lg-6">
+							<div class="card shadow" style="width: 25rem;">
+							<div class="card-body aag-card-body" style="height:18rem;">
+							
+							</div>
+							</div>
+				</div>
+				<div class="col-lg-6">
+							<div class="card shadow" style="width: 25rem;">
+							<div class="card-body aag-card-body" style="height:18rem;">
+							
+							</div>
+							</div>
+				</div>
+				<div class="col-lg-6">
+							<div class="card shadow" style="width: 25rem;">
+							<div class="card-body aag-card-body" style="height:18rem;">
+							
+							</div>
+							</div>
+				</div>
+
+				<!-- end item calendar-->
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<!-- item videos -->
+			<div style="background-color:#F8F6F6;">
+					<div class="aag-vd-header p-2"> Réseaux Sociaux </div>
+
+					<div class="row">
+						<div class="col-12">
+							<center>
+							<div class="p-4">
+								<iframe  src="https://www.youtube.com/embed/tohgsqj2rWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							</center>
+						</div>
+
+						<div class="col-12">
+							<center>
+							<div class="p-4">
+								<iframe  src="https://www.youtube.com/embed/tohgsqj2rWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							</center>
+						</div>
+
+						<div class="col-12">
+							<center>
+							<div class="p-4">
+								<iframe  src="https://www.youtube.com/embed/tohgsqj2rWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							</center>
+						</div>
+					</div>
+			</div>
+			<!-- end item viedos -->
+		</div>
+	</div>
+
+
+</div>
 
 
 <?php include('include/footer.php') ?>

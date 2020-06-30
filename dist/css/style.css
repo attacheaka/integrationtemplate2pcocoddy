@@ -1,0 +1,75 @@
+.aag-bg-blue{
+  background-color:#294A70;
+}
+
+.aag-text-blue{
+    color: #294A70;
+}
+
+.aag-text-iepp{
+    color:#294A70;
+    font-size:1em;
+}
+
+.aag-text-subiepp{
+    color:#294A70;
+    font-size:0.7em;
+}
+
+.aag-cs-navbar{
+    background-color:#294A70;
+    padding:0px;
+}
+
+.aag-hr{
+    background-color:#EB9075;
+    color:#EB9075;
+    height:5px;
+}
+
+.aag-title-section{
+    font-size:1.3rem;
+    font-weight:400;
+}
+
+/* card actualite */
+.aag-card-body{
+    background-color:#294A70;
+    color: white;
+}
+
+.aag-card-title{
+  font-size: 0.7em;
+}
+
+.aag-card-text{
+    font-size: 0.7em;
+}
+
+.aag-btn-orange{
+    color: white;
+    background-color: #EB9075;
+    border-color: none;
+}
+
+/* card ev */
+.aag-bg-ev{
+    background-color: #F8F6F6;
+}
+.aag-card-ev{
+    border: none;
+    color: #294A70;
+}
+.aag-cardev-title{
+    font-size: 0.8em;
+    color:inherit;
+  }
+  
+  .aag-cardev-text{
+      font-size: 0.7em;
+      color: inherit;
+  }
+  .aag-vd-header{
+      background-color: #294A70;
+      color: white;
+  }
