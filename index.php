@@ -1,10 +1,7 @@
 <?php include('include/header.php') ?>
 
-<div class="container-fluid" style="padding:0;">
-	 <div class="aag-bg-blue aag-text-color p-3"> ... </div>
-</div>
+<div class="aag-bg-blue aag-text-color p-3"> ... </div>
 
-<div class="container-fluid" style="padding:0;">
 	 <div class="row mr-md-2 mr-lg-2 mb-5">
 	 	   <div class="col-md-9 col-lg-9">
 	 	   	 <img class="img-fluid" src="dist/img/ministere.png" alt="">
@@ -87,9 +84,9 @@
 		</div>
 		<!-- flash info -->
 <br><br><br>
-</div>
 
-
+<!-- body  -->
+<div class="container">
  <!--  after flash -->
 
 	<div class="row">
@@ -275,10 +272,34 @@
 						</div>
 					</div>
 			</div>
-			<!-- end item viedos -->
+			<!-- end item videos -->
 		</div>
 	</div>
 
+<!-- mot de l'inspecteur  -->
+<br><br><br>
+					<div class="row">
+						<div class="col-md-6"> 
+							<div class="card-body aag-card-body p-5 h-100">
+								<h5 class="card-title aag-cardins-title"> Mot de l'inspecteur </h5>
+								<p class="card-text aag-cardins-text">
+										Madame Kandia CAMARA, Ministre de l’Éducation Nationale,
+										de l’Enseignement Technique et de la Formation Professionnelle 
+										à ses cotés Madame FRIE Léocadie épse GOUGOUEI, Inspecteur d
+										e l’Enseignement Préscolaire et Primaire, Chef de Circonscription
+										et Primaire, Chef de Circonscription et Primaire, Chef de Circonscription
+								</p>
+							</div>
+						</div>
+						<div class="col-md-6 ml-0">
+							<div class="card-body" style="padding:0;">
+								<img src="dist/img/ministre.png" width="100%" height="100%" alt="...">
+							</div>
+							
+						</div>
+					</div>
+<!-- fin mot de l'inspecteur -->
 
-
+</div>
+<!-- end body -->
 <?php include('include/footer.php') ?>

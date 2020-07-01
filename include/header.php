@@ -10,5 +10,5 @@
 </head>
 <body>
 
-<div class="container-fluid">
+<div class="container-fluid" style="padding:0;">
 

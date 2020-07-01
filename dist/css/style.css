@@ -38,14 +38,9 @@
     color: white;
 }
 
-.aag-card-title{
+.aag-card-title, .aag-card-text{
   font-size: 0.7em;
 }
-
-.aag-card-text{
-    font-size: 0.7em;
-}
-
 .aag-btn-orange{
     color: white;
     background-color: #EB9075;
@@ -72,4 +67,10 @@
   .aag-vd-header{
       background-color: #294A70;
       color: white;
+  }
+
+  /* mot inspecteur */
+  
+.aag-cardins-title, .aag-cardins-text{
+    font-size: 0.9em;
   }
