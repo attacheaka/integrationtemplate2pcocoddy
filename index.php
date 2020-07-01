@@ -1,6 +1,6 @@
 <?php include('include/header.php') ?>
 
-<div class="aag-bg-blue aag-text-color p-3"> ... </div>
+<div class="aag-bg-blue aag-text-color w-100"> ... </div>
 
 	 <div class="row mr-md-2 mr-lg-2 mb-5">
 	 	   <div class="col-md-9 col-lg-9">
@@ -33,22 +33,22 @@
 		      <li class="nav-item mb-2">
 		        <a class="nav-link text-white" href="#"> SERVICES </a>
 		      </li>
-					<li class="nav-item">
+			  <li class="nav-item">
 		        <a class="nav-link text-white" href="#"> PROGRAMMES </a>
 		      </li>
-					<li class="nav-item">
+			  <li class="nav-item">
 		        <a class="nav-link text-white" href="#"> EXAMENS - CONCOURS </a>
 		      </li>
-					<li class="nav-item">
+			   <li class="nav-item">
 		        <a class="nav-link text-white" href="#"> MEDIA </a>
 		      </li>
-					<li class="nav-item">
+			  <li class="nav-item">
 		        <a class="nav-link text-white" href="#"> ECOLE VIRTUELLE </a>
 		      </li>
-					<li class="nav-item">
+			  <li class="nav-item">
 		        <a class="nav-link text-white" href="#"> DATABASE </a>
 		      </li>
-					<li class="nav-item">
+			  <li class="nav-item">
 		        <a class="nav-link text-white" href="#"> SIG IEPP </a>
 		      </li>
 		    </ul>
@@ -83,6 +83,17 @@
 		  </a>
 		</div>
 		<!-- flash info -->
+		<div class="container-fluid">
+			<div class="row shadow mb-0">
+				<div class="col-2 text-white" style="background: url('dist/img/bg-flashinfos.svg') no-repeat 0;background-size:cover;">
+			     	Flash Infos
+				</div>
+				<div class="col-10">
+					<marquee class="text-danger w-100"> <p class="m-1"> Covid-19 : face au CORONAVIRUS, il existe des gestes simples pour préserver votre santé et celle de votre entourage : Se laver les mains très régulièrement-Tousser ou éternuer dans son coude ou dans un mouchoir-Saluer sans se serrer la main, éviter les embrassades-Utiliser des mouchoirs à usage ff   </p></marquee>
+				</div>
+			</div>
+		</div>
+		<!-- end flash info -->
 <br><br><br>
 
 <!-- body  -->
