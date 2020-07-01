@@ -22,12 +22,12 @@
  <!-- barre de navigation -->
 		 <nav class="navbar navbar-expand-lg navbar-light aag-cs-navbar">
 			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				 <span class="navbar-toggler-icon"></span>
+				 <span class="bg-white navbar-toggler-icon"></span>
 			 </button>
 
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav m-auto text-center">
-		      <span style="background-color:#EB9075;" class="p-2 nav-item">
+		      <span class="aag-active p-2 nav-item">
 		        <a class="nav-link" href="#"> <img src="dist/icons/home.svg" alt=""></a>
 		      </span>
 		      <li class="nav-item mb-2">
@@ -84,9 +84,9 @@
 		</div>
 		<!-- flash info -->
 		<div class="container-fluid">
-			<div class="row shadow mb-0">
-				<div class="col-2 text-white" style="background: url('dist/img/bg-flashinfos.svg') no-repeat 0;background-size:cover;">
-			     	Flash Infos
+			<div class="row shadow">
+				<div class="col-2 m-0 p-1 text-white" style="background: url('dist/img/bg-flashinfos.svg') no-repeat 0;background-size:cover;">
+			        <h1 style="font-size:1em;font-weight:none;" class="text-center"> Flash Infos </h1>
 				</div>
 				<div class="col-10">
 					<marquee class="text-danger w-100"> <p class="m-1"> Covid-19 : face au CORONAVIRUS, il existe des gestes simples pour préserver votre santé et celle de votre entourage : Se laver les mains très régulièrement-Tousser ou éternuer dans son coude ou dans un mouchoir-Saluer sans se serrer la main, éviter les embrassades-Utiliser des mouchoirs à usage ff   </p></marquee>
@@ -143,7 +143,7 @@
 			</div>
 		</div>
 
-		<div class="col-lg-4">
+		<div class="col-lg-4 mt-3">
 			<h2 class="aag-title-section"> Evenements </h2>
 			<div class="aag-hr mb-4"></div>
 			<!-- item event -->
@@ -213,30 +213,30 @@
 			<div class="row mt-3">
 				<div class="col-lg-6 mb-3">
 						<div class="card shadow">
-						<div class="card-body aag-card-body"  style="height:18rem;">
-						
+							<div class="card-body aag-card-body"  style="height:18rem;">
+							
+							</div>
 						</div>
-						</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 mb-3">
 							<div class="card shadow">
-							<div class="card-body aag-card-body" style="height:18rem;">
-							
-							</div>
-							</div>
-				</div>
-				<div class="col-lg-6">
-							<div class="card shadow">
-							<div class="card-body aag-card-body" style="height:18rem;">
-							
-							</div>
+								<div class="card-body aag-card-body" style="height:18rem;">
+								
+								</div>
 							</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 mb-3">
 							<div class="card shadow">
-							<div class="card-body aag-card-body" style="height:18rem;">
-							
+								<div class="card-body aag-card-body" style="height:18rem;">
+								
+								</div>
 							</div>
+				</div>
+				<div class="col-lg-6 mb-3">
+							<div class="card shadow">
+								<div class="card-body aag-card-body" style="height:18rem;">
+								
+								</div>
 							</div>
 				</div>
 

@@ -16,6 +16,14 @@
     font-size:0.7em;
 }
 
+.aag-active{
+    background-color:#EB9075;
+}
+
+.nav-item:hover{
+    background-color:#EB9075; 
+}
+
 .aag-cs-navbar{
     background-color:#294A70;
     padding:0px;
