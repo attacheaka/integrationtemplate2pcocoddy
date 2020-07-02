@@ -74,11 +74,11 @@
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span aria-hidden="true"> <img src="dist/icons/caro-pre-icon.svg" width="50"  alt=""></span>
 		    <span class="sr-only">Previous</span>
 		  </a>
 		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span aria-hidden="true"> <img src="dist/icons/caro-next-icon.svg" width="50" alt=""></span>
 		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
@@ -287,25 +287,6 @@
 		</div>
 	</div>
 
-<!-- 
-
-<div class="col-md-4">
-									<img src="dist/img/siege.png" width="100%" height="100%" class="img-fluid float-right" alt="...">
-								</div>
-								<div class="col-md-8">
-									<div class="card-body float-left">
-										<div class="card-text aag-cardins-tex">
-											 Numéro de téléphone : +225 22 41 52 10 <br>
-											 Adresse postale : 27 BP 10 ABIDJAN 27 <br>
-											 Adresse électronique : info@ieppcocodydeuxplateaux.ci <br>
-											 Localisation : Cocody Deux-Plateaux Cité SIDECI, sur l’axe Carrefour Duncan , 
-												 Zoo à 150 m de la CEI en face du maquis Durand. 
-											
-										</div>
-									</div>
-								</div>
- -->
-
 </div>
 
 <div class="container-fluid">
@@ -329,7 +310,7 @@
 						</div>
 						<div class="col-md-6 ml-0">
 							<div class="card-body" style="padding:0;">
-								<img src="dist/img/ministre.png" width="100%" height="100%" alt="...">
+								<img src="dist/img/inspecteurp.png" width="100%" height="100%" alt="...">
 							</div>
 							
 						</div>
