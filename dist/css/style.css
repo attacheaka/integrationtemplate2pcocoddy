@@ -82,3 +82,8 @@
 .aag-cardins-title, .aag-cardins-text{
     font-size: 0.9em;
   }
+
+/* footer */
+.aag-bg-footer{
+    background-color: #201E1E;
+}

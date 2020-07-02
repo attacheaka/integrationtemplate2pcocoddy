@@ -287,18 +287,43 @@
 		</div>
 	</div>
 
-<!-- mot de l'inspecteur  -->
+<!-- 
+
+<div class="col-md-4">
+									<img src="dist/img/siege.png" width="100%" height="100%" class="img-fluid float-right" alt="...">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body float-left">
+										<div class="card-text aag-cardins-tex">
+											 Numéro de téléphone : +225 22 41 52 10 <br>
+											 Adresse postale : 27 BP 10 ABIDJAN 27 <br>
+											 Adresse électronique : info@ieppcocodydeuxplateaux.ci <br>
+											 Localisation : Cocody Deux-Plateaux Cité SIDECI, sur l’axe Carrefour Duncan , 
+												 Zoo à 150 m de la CEI en face du maquis Durand. 
+											
+										</div>
+									</div>
+								</div>
+ -->
+
+</div>
+
+<div class="container-fluid">
+	<!-- mot de l'inspecteur  -->
 <br><br><br>
 					<div class="row">
 						<div class="col-md-6"> 
 							<div class="card-body aag-card-body p-5 h-100">
-								<h5 class="card-title aag-cardins-title"> Mot de l'inspecteur </h5>
+								<h5 class="card-title aag-cardins-title"> Presentation de l'inspection </h5>
 								<p class="card-text aag-cardins-text">
-										Madame Kandia CAMARA, Ministre de l’Éducation Nationale,
-										de l’Enseignement Technique et de la Formation Professionnelle 
-										à ses cotés Madame FRIE Léocadie épse GOUGOUEI, Inspecteur d
-										e l’Enseignement Préscolaire et Primaire, Chef de Circonscription
-										et Primaire, Chef de Circonscription et Primaire, Chef de Circonscription
+									Dans le cadre du contrôle et du recouvrement du fonds 
+									formation: ce mercredi 15 Janvier 2020, les différents COGES de la
+									Circonscription IEPP Cocody Deux-Plateaux ont reçu la visite de la 
+									délégation des contrôleurs COGES du Ministère de l’Education Nationale.
+									L’accueil de nos hôtes s’est fait en présence de M.KONAN Bertin Inspecteu
+									r stagiaire, représentant Madame GOUGOUEÏ Léocadie IEPP Cocody 
+									Deux-Plateaux, chef de Circonscription et de Mme COULIBALY Conseillère 
+									COGES de la Circonscription
 								</p>
 							</div>
 						</div>
@@ -311,6 +336,45 @@
 					</div>
 <!-- fin mot de l'inspecteur -->
 
+
+<!-- Contact  -->
+					<div class="row">
+						<div class="col-lg-6 mt-5"> 
+						<h2 class="aag-title-section"> Contact </h2>
+						<div class="aag-hr mb-4"></div>
+								<div class="card shadow flex-md-row mb-4 h-md-250" style="border:none;">
+											<img class="card-img-left flex-auto d-none d-md-block" src="dist/img/siege.png" alt="...">
+
+											<div class="card-body d-flex flex-column align-items-start">
+												<p class="card-text aag-cardins-tex mb-auto">
+													Numéro de téléphone : +225 22 41 52 10 <br>
+													Adresse postale : 27 BP 10 ABIDJAN 27 <br>
+													Adresse électronique : info@ieppcocodydeuxplateaux.ci <br>
+													Localisation : Cocody Deux-Plateaux Cité SIDECI, sur l’axe Carrefour Duncan , 
+													Zoo à 150 m de la CEI en face du maquis Durand. 
+												</p>
+											</div>
+								</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="card-body" style="padding:0;">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.222887530848!2d-5.348683331737413!3d5.824163089195531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfbf73ac05c5fe81%3A0x76a59aa6c977ec7c!2sLyc%C3%A9e%20Municipal%20Alphonse%20Assamoi%20de%20Divo!5e0!3m2!1sfr!2sci!4v1592918228149!5m2!1sfr!2sci" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							</div>
+							
+						</div>
+					</div>
+<!-- fin Contact -->
+
+</div>
+
+<div class="container-fluid" style="padding:0;">
+	<!-- footer -->
+	<div class="aag-bg-footer w-100 text-center text-white p-4"> 
+		Facebook | Youtube <br>
+		Copyright. All rights reserved. <br>
+		education.gouv.ci | IEPP Cocody Deux-Plateaux  +225 22 41 52 10 / 57 797 832 /  info@ieppcocodydeuxplateaux.ci <br>
+	</div>
+<!--  end footer -->
 </div>
 <!-- end body -->
 <?php include('include/footer.php') ?>
